@@ -4,7 +4,7 @@
 /*
 Author: Carl Shiu, bkshiu@myseneca.ca, 127456192, 29 November 2024, CPR101NDD, Project
 [manipulating.c]
-Purpose: [this program concatenation string demo]
+Purpose: [this program concatenate string demo]
 */
 #include "manipulating.h"
 
