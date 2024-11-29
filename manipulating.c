@@ -3,7 +3,7 @@
 #define BUFFER_SIZE 80
 /*
 Author: Carl Shiu, bkshiu@myseneca.ca, 127456192, 29 November 2024, CPR101NDD, Project
-[manipulating.c]
+[manipulating.c] : Module 2
 Purpose: [this program concatenate string demo]
 */
 #include "manipulating.h"
