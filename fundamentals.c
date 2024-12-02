@@ -4,7 +4,7 @@
 #define NUM_INPUT_SIZE  10
 #include "fundamentals.h"
 /*
-Author: Jonathan Browne, jbrowne6@myseneca.ca, ID, 2024-11-29, CPR101NDD, CPR FINAL Project
+Author: Jonathan Browne, jbrowne6@myseneca.ca, 178413233, 2024-11-29, CPR101NDD, CPR FINAL Project
 [fundamentals.c] : [CPR final Project]
 Purpose:  is to allows the user to input one string at a specify position within the string
 */
