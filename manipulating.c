@@ -9,20 +9,37 @@ Purpose: [this program concatenate string demo]
 #include "manipulating.h"
 
 void manipulating(void) {
-    printf("*** Start of Concatenating Strings Demo ***\n");
-    char string1[BUFFER_SIZE * 2];
-    char string2[BUFFER_SIZE];
+    printf("*** Start of Comparing Strings Demo ***\n");
+    char compare1[BUFFER_SIZE];
+    char compare2[BUFFER_SIZE];
+    int result;
+
     do {
-        printf("Type the 1st string (q - to quit):\n");
-        fgets(string1, BUFFER_SIZE, stdin);
-        string1[strlen(string1) - 1] = '\0'; // Remove newline character
-        if (strcmp(string1, "q") != 0) {
-            printf("Type the 2nd string:\n");
-            fgets(string2, BUFFER_SIZE, stdin);
-            string2[strlen(string2) - 1] = '\0'; // Remove newline character
-            strcat(string1, string2); // Concatenate string2 to string1
-            printf("Concatenated string is \'%s\'\n", string1);
+        // Prompt the user to enter the first string
+        printf("Type the 1st string to compare (q - to quit):\n");
+        fgets(compare1, BUFFER_SIZE, stdin);
+        compare1[strlen(compare1) - 1] = '\0'; // Remove the newline character
+
+        if (strcmp(compare1, "q") != 0) { // Check if the user wants to quit
+            // Prompt the user to enter the second string
+            printf("Type the 2nd string to compare:\n");
+            fgets(compare2, BUFFER_SIZE, stdin);
+            compare2[strlen(compare2) - 1] = '\0'; // Remove the newline character
+
+            // Compare the two strings
+            result = strcmp(compare1, compare2);
+
+            // Display the comparison result
+            if (result < 0) {
+                printf("\"%s\" string is less than \"%s\"\n", compare1, compare2);
+            }
+            else if (result == 0) {
+                printf("\"%s\" string is equal to \"%s\"\n", compare1, compare2);
+            }
+            else {
+                printf("\"%s\" string is greater than \"%s\"\n", compare1, compare2);
+            }
         }
-    } while (strcmp(string1, "q") != 0);
-    printf("*** End of Concatenating Strings Demo ***\n");
-}
+    } while (strcmp(compare1, "q") != 0); // Repeat until the user enters "q"
+
+    printf("*** End of Comparing Strings Demo ***\n");
