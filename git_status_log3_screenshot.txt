@@ -1,0 +1,17 @@
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git_status_log3_screenshot.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+commit 8ff974cb28b20f6871294246f1e8d579d7aef466
+Author: Karl Shiu <bkshiu1@myseneca.ca>
+Date:   Fri Dec 6 16:07:10 2024 -0500
+
+    Completed converting module - Version 2 (added string to double conversion)
+
+commit 0e1fcebeddd588a9b967b489fb0ce3f4dea3611d
+Author: Karl Shiu <bkshiu1@myseneca.ca>
+Date:   Fri Dec 6 16:06:04 2024 -0500
+
+    Completed converting module - Version 2 (added string to double conversion)
