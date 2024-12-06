@@ -5,7 +5,7 @@
 
 /*
 Author: Karl Shiu, bkshiu1@myseneca.ca, 131531246, 06/12/2024, CPR101NDD, Final Group Project
-converting.c : Module 3 V2
+convertingV2.c : Module 3 V2
 Purpose: Convert string to double
 */
 
