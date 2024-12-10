@@ -1,0 +1,13 @@
+commit f8076cf4936f5d4df6fbb8f8a97ccee0fa0910d5 (HEAD -> master)
+Author: Jonathan Browne <jbrowne6@myseneca.ca>
+Date:   Mon Dec 9 19:14:53 2024 -0500
+
+    completed fundamentals module - Version 3 (this code will copy the a string and paste)
+
+
+commit c33f06ca047e52d8b4854dbde7e4ef5fe63f0333
+Author: Jonathan Browne <jbrowne6@myseneca.ca>
+Date:   Mon Dec 9 19:07:14 2024 -0500
+
+    completed fundamentals module - Version 2 (this code show how string measurement by displaying and calculating the length of user-input string)
+
