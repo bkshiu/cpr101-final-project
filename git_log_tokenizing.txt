@@ -1,11 +1,11 @@
-commit 57635c3ff8aa5dea2e2953a7f751852cb9ab5e40 
+commit b6d8ae815549ecfb8b63e37197bba7ac3c40c4d3 (HEAD -> master)
 Author: Mahummad Ahmed <Mahmed290@Myseneca.ca>
-Date:   Tue Apr 9 21:33:53 2024 -0400
+Date:   Mon Dec 9 19:41:18 2024 -0500
 
    completed tokenizing module - Version 3 (ask for input and with period set them as different sentences)
 
-commit 7452e9f6a2caa5b2ff3b66e8dcd3beaa80b5c6f3
+commit 5dbf3b334aa51391aeecc5113f4c1a4e418429f9 (HEAD -> master)
 Author: Mahummad Ahmed <Mahmed290@Myseneca.ca>
-Date:   Tue Apr 9 21:01:57 2024 -0400
+Date:   Mon Dec 9 19:56:40 2024 -0500
 
     completed tokenizing module - version 2 (ask for the user  input phrases that are separated by commas)
