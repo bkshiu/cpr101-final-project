@@ -1,0 +1,12 @@
+commit 0b7d69d798442cd15033fe4c225aa58896ea6186 (HEAD -> master)
+Author: Carl Shiu <bkshiu@myseneca.ca>
+Date:   Mon Dec 9 19:45:03 2024 -0500
+
+    completed manipulating module - version 3 (this will search for a string)
+
+
+commit f771a65cefd298a7030062009fedb00fa5ad02fd (HEAD -> master)
+Author: Carl Shiu <bkshiu@myseneca.ca>
+Date:   Mon Dec 9 19:58:11 2024 -0500
+
+    completed manipulating module - version 2 (this will search for a string)
